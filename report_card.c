@@ -13,4 +13,6 @@ int main(void) {
 	printf("ÇÕ°è %d\n", kor + math + eng);
 	printf("Æò±Õ %.0f\n", (double)(kor + math + eng) / 3);
 
+	return 0;
+
 }
