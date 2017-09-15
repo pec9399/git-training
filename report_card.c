@@ -2,7 +2,7 @@
 
 int main(void) {
 
-	int kor, math, eng;
+	int kor, math, eng, mean;
 
 	printf("국어 ");
 	scanf("%d", &kor);
@@ -10,8 +10,9 @@ int main(void) {
 	scanf("%d", &math);
 	printf("영어 ");
 	scanf("%d", &eng);
-	printf("합계 %d\n", kor + math + eng);
-	//printf("평균 %.0f\n", (double)(kor + math + eng) / 3);
+	mean = kor+math+eng;
+	printf("합계 %d\n", mean);
+	printf("평균 %.0f\n", (double)(mean) / 3);
 	return 0;
 
 }
